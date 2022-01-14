@@ -1,7 +1,7 @@
 /**
  * @file main.cpp
  * @author Maciej Kołodziejczyk
- * @version 1.0.0
+ * @version 1.0.1
  * @date 08-01-2021
  */
  
@@ -109,7 +109,7 @@ int main(int argc, char * argv[]) {
             //Program Info
             std::cout << std::endl;
             std::cout << "__________________________________________________________________________________________________" << std::endl;
-            std::cout << "PROJECT STEGANOGRAPHY v1.0.0:" << std::endl;
+            std::cout << "PROJECT STEGANOGRAPHY v1.0.1:" << std::endl;
             std::cout << "Created by: Maciej Kołodziejczyk S20661" << std::endl;
             std::cout << "__________________________________________________________________________________________________" << std::endl;
             //Supported File Types

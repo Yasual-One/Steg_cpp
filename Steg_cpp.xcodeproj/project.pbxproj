@@ -11,6 +11,8 @@
 		02A7358F2790C59500ECB052 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02A7358D2790C59500ECB052 /* main.cpp */; };
 		02C353B9278FC3AB00D314B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C353B8278FC3AB00D314B9 /* main.cpp */; };
 		02C353C1278FC3DD00D314B9 /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02C353BF278FC3DD00D314B9 /* image.cpp */; };
+		02D964C02790FFDD00F833FB /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D964BD2790FFDD00F833FB /* image.cpp */; };
+		02D964C12790FFDD00F833FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02D964BF2790FFDD00F833FB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +55,9 @@
 		02C353B8278FC3AB00D314B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		02C353BF278FC3DD00D314B9 /* image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
 		02C353C0278FC3DD00D314B9 /* image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = image.hpp; sourceTree = "<group>"; };
+		02D964BD2790FFDD00F833FB /* image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = image.cpp; sourceTree = "<group>"; };
+		02D964BE2790FFDD00F833FB /* image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = image.hpp; sourceTree = "<group>"; };
+		02D964BF2790FFDD00F833FB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,7 @@
 		02C353AC278FC3AB00D314B9 = {
 			isa = PBXGroup;
 			children = (
+				02D964BC2790FFA900F833FB /* Linux */,
 				02BC34ED2790C4E100CF909B /* Windows */,
 				02C353B7278FC3AB00D314B9 /* MacOS */,
 				02C353B6278FC3AB00D314B9 /* Products */,
@@ -117,6 +123,16 @@
 				02C353B8278FC3AB00D314B9 /* main.cpp */,
 			);
 			path = MacOS;
+			sourceTree = "<group>";
+		};
+		02D964BC2790FFA900F833FB /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				02D964BD2790FFDD00F833FB /* image.cpp */,
+				02D964BE2790FFDD00F833FB /* image.hpp */,
+				02D964BF2790FFDD00F833FB /* main.cpp */,
+			);
+			path = Linux;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D964C12790FFDD00F833FB /* main.cpp in Sources */,
+				02D964C02790FFDD00F833FB /* image.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

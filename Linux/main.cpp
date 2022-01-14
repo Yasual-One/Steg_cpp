@@ -9,8 +9,14 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "unistd.h"
+#include <cstring>
+#include <limits.h>
 
 int main(int argc, char * argv[]) {
+    
+    char buff[PATH_MAX];
+    getcwd(buff, sizeof(buff));
+    std::string currentPath(buff);
     
     // Implementation of flags and their aliases
     int argument = 0;
@@ -63,7 +69,6 @@ int main(int argc, char * argv[]) {
                 image.encode(arg2);
                 
                 //Get current path and create export file name;
-                std::string currentPath = std::filesystem::current_path();
                 std::string exportFileName = image.getExportFileName();
                 std::string temp = currentPath + exportFileName;
                 const char * exportPath = temp.c_str();

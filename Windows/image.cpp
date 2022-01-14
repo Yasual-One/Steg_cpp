@@ -1,7 +1,7 @@
 /**
  * @file image.cpp
  * @author Maciej Kołodziejczyk
- * @version 1.0.0
+ * @version 1.0.1
  * @date 08-01-2021
  */
  
