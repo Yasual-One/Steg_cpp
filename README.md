@@ -17,7 +17,7 @@ This program was created as a final project from the first semester of my C++ pr
 ### MacOS:
 **g++** or **clang++** installed
 
-### Linux (NOT TESTED):
+### Linux:
 **g++** or **gcc** installed
 
 To check if you have g++, gcc or clang++ installed simply start cmd or terminal and type in: <code>g++ --version</code> or <code>gcc --version</code> or <code>clang++ --version</code>
@@ -33,36 +33,44 @@ To check if you have g++, gcc or clang++ installed simply start cmd or terminal 
 .pgm
 
 ## Available commands
+
+DPEENDING ON YOUR PLATFORM PROGRAM NAME WILL DIFFER:
+- For Windows <code>Steg_win</code>
+- For MacOS <code>Steg_mac</code>
+- For Linux <code>Steg_lin</code>
+
+For simplification in the examples below I will use the mac application name, just remember that they differ between platforms.
+
 <code>-i</code> - to check basic information about the file. Requires providing the path to the file.
 
 example:
 ```
-Steg_cpp -i "C:/Users/<username>/Pictures/image.png"
+Steg_mac -i "C:/Users/<username>/Pictures/image.png"
 ```
 
 <code>-e</code> - to hide a message inside an image. Requires providing the path to the file and a message to be hidden.
 
 example
 ```
-Steg_cpp -e "C:/Users/<username>/Pictures/image.png" "Message to hide"
+Steg_mac -e "C:/Users/<username>/Pictures/image.png" "Message to hide"
 ```
 
 <code>-d</code> - to read a message that has been previously hidden. Requires providing the path to the file.
 
 example
 ```
-Steg_cpp -d "C:/Users/<username>/Pictures/image.png"
+Steg_mac -d "C:/Users/<username>/Pictures/image.png"
 ```
 
 <code>-c</code> - to check whether the message will fit inside the image. Requires providing the path to the file and a message to be hidden. Unnecessary as -e automatically does this check but required by my professor.
 
 ```
-Steg_cpp -c "C:/Users/<username>/Pictures/image.png" "Message to hide"
+Steg_mac -c "C:/Users/<username>/Pictures/image.png" "Message to hide"
 ```
 
 <code>-h</code> - to display the help box containing all the commands and error codes.
 ```
-Steg_cpp -h
+Steg_mac -h
 ```
 # Plans for the future:
 I am planning on expanding this project. Below is a simple checklist showing what has been done and what is yet to come.
